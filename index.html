@@ -45,10 +45,11 @@
     padding: 20px 22px;
     margin: 0 0 16px;
   }
+  section:target { outline: 2px solid var(--brand); outline-offset: 3px; }
   h2 { font-size: 1.15rem; margin: 0 0 12px; color: var(--brand); }
   h3 { font-size: 1rem; margin: 20px 0 6px; }
   p, li { margin: 0 0 10px; }
-  ul { padding-left: 20px; margin: 0 0 12px; }
+  ul, ol { padding-left: 20px; margin: 0 0 12px; }
 
   table { width: 100%; border-collapse: collapse; margin: 8px 0 4px; font-size: 0.93rem; }
   th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
@@ -59,6 +60,7 @@
     color: var(--brand); text-decoration: none; border: 1px solid var(--line);
     border-radius: 999px; padding: 6px 14px; font-size: 0.9rem;
   }
+  a { color: var(--brand); }
   .note { color: var(--muted); font-size: 0.9rem; }
   footer { color: var(--muted); font-size: 0.88rem; text-align: center; margin-top: 28px; }
   [hidden] { display: none !important; }
@@ -75,8 +77,8 @@
 <!-- ============================ ESPAÑOL ============================ -->
 <div id="es">
 <header>
-  <h1>Política de privacidad</h1>
-  <p class="sub">Block Quest · Última actualización: 7 de octubre de 2026</p>
+  <h1>Política de tratamiento de datos personales</h1>
+  <p class="sub">Block Quest · Versión 2 · Vigente desde el 15 de octubre de 2026</p>
 </header>
 
 <section>
@@ -88,6 +90,41 @@
      demasiado difíciles, y los datos que necesitan los anuncios. Si decides
      iniciar sesión, guardamos tu progreso para que lo tengas en otro
      dispositivo.</p>
+  <p>Puedes borrar todo —lo del dispositivo, lo de la nube y la cuenta misma—
+     desde dentro del juego, sin escribirnos. Está en
+     <em>Ajustes ▸ Borrar mis datos</em>.</p>
+</section>
+
+<section id="responsable">
+  <h2>Quién responde por tus datos</h2>
+  <table>
+    <tr><th>Responsable del tratamiento</th><td>Edwin Fernando Arias Arrieta</td></tr>
+    <tr><th>Domicilio</th><td>Calle 91 #22A-93 Int. 301, Medellín, Antioquia, Colombia</td></tr>
+    <tr><th>Correo electrónico</th><td><a href="mailto:ferwin.arias@gmail.com">ferwin.arias@gmail.com</a></td></tr>
+    <tr><th>Teléfono</th><td>+57 324 263 9156</td></tr>
+  </table>
+  <p>Esta política se expide en cumplimiento de la Ley 1581 de 2012, el Decreto
+     1074 de 2015 y las demás normas colombianas sobre protección de datos
+     personales. El responsable es una persona natural que desarrolla y publica
+     el juego a título individual.</p>
+  <p class="note">Por tratarse de una persona natural, no procede el registro de
+     bases de datos en el RNBD, conforme al Decreto 090 de 2018.</p>
+</section>
+
+<section>
+  <h2>En qué nos basamos para tratarlos</h2>
+  <p>En tu autorización. La das de dos maneras, según el dato:</p>
+  <ul>
+    <li><strong>Anuncios y analítica.</strong> Si estás en una región donde la ley
+        lo exige, el juego muestra una pantalla de consentimiento antes de
+        recoger nada. Fuera de esas regiones, usar el juego constituye la
+        autorización, y puedes retirarla como se explica más abajo.</li>
+    <li><strong>Inicio de sesión y guardado en la nube.</strong> Solo si pulsas
+        <em>Iniciar sesión</em>. Es opcional y el juego funciona completo sin
+        ello.</li>
+  </ul>
+  <p>Las compras se tratan además para cumplir la obligación de entregar lo
+     comprado y de atender reclamos por ello.</p>
 </section>
 
 <section>
@@ -102,12 +139,13 @@
   <p>Al iniciar sesión guardamos un identificador de tu cuenta y, si tu perfil
      de Google Play Juegos lo facilita, tu nombre visible. Sirven para
      reconocer tu partida en otro teléfono. No los usamos para nada más y no
-     los compartimos.</p>
+     los cedemos a terceros; quedan alojados en Firebase, que actúa como
+     encargado del tratamiento por nuestra cuenta.</p>
 
   <h3>Datos de uso</h3>
   <p>Qué nivel empiezas, si lo superas, con cuántas estrellas, qué compras en
      la tienda del juego y qué anuncios ves. No llevan tu nombre. Nos sirven
-     para equilibrar la dificultad.</p>
+     para equilibrar la dificultad y para medir el rendimiento de los anuncios.</p>
 
   <h3>Anuncios</h3>
   <p>Google AdMob recibe el identificador de publicidad de tu dispositivo,
@@ -120,51 +158,139 @@
 </section>
 
 <section>
-  <h2>Tu consentimiento</h2>
+  <h2>Tu consentimiento, y cómo retirarlo</h2>
   <p>Si estás en el Espacio Económico Europeo, el Reino Unido o Suiza, al abrir
      el juego por primera vez verás una pantalla donde eliges si aceptas los
      anuncios personalizados.</p>
-  <p>Esa decisión también gobierna la analítica: <strong>hasta que respondes,
-     el juego no envía ningún dato de uso</strong>. Si la rechazas, seguirás
-     viendo anuncios, pero no personalizados.</p>
-  <p>Puedes cambiar de opinión cuando quieras desde los ajustes de tu
-     dispositivo, restableciendo o borrando tu identificador de publicidad.</p>
+  <p>Esa decisión también gobierna la analítica. El juego arranca con la
+     analítica <strong>apagada</strong> y no envía ningún dato de uso mientras la
+     pregunta está en pantalla; si la rechazas, sigue apagada y solo verás
+     anuncios no personalizados.</p>
+  <p>Puedes cambiar de opinión en cualquier momento, sin perder tu progreso:</p>
+  <ul>
+    <li><strong>Dentro del juego:</strong> <em>Ajustes ▸ Privacidad ▸ Cambiar</em>
+        reabre esa misma pantalla. La fila aparece donde hay un formulario que
+        reabrir. El cambio surte efecto de inmediato, sin reiniciar.</li>
+    <li><strong>Desde el sistema:</strong> restableciendo o borrando el
+        identificador de publicidad en los ajustes de tu teléfono.</li>
+    <li><strong>Escribiéndonos:</strong> a la dirección de la sección anterior.</li>
+  </ul>
 </section>
 
 <section>
   <h2>Con quién se comparten</h2>
-  <p>No vendemos tus datos. Los tratan por nuestra cuenta estos servicios:</p>
+  <p>No vendemos tus datos. Los tratan por nuestra cuenta, como encargados,
+     estos servicios:</p>
   <table>
-    <tr><th>Servicio</th><th>Para qué</th></tr>
-    <tr><td>Google AdMob</td><td>Mostrar anuncios</td></tr>
-    <tr><td>Firebase (Google)</td><td>Analítica, inicio de sesión y guardado en la nube</td></tr>
-    <tr><td>GameAnalytics</td><td>Estadísticas de juego</td></tr>
-    <tr><td>Google Play</td><td>Compras e inicio de sesión con Play Juegos</td></tr>
+    <tr><th>Servicio</th><th>Para qué</th><th>Política</th></tr>
+    <tr><td>Google AdMob</td><td>Mostrar anuncios y medir su rendimiento</td>
+        <td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
+    <tr><td>Firebase (Google)</td><td>Analítica, inicio de sesión y guardado en la nube</td>
+        <td><a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td></tr>
+    <tr><td>GameAnalytics</td><td>Estadísticas de juego</td>
+        <td><a href="https://gameanalytics.com/privacy">gameanalytics.com/privacy</a></td></tr>
+    <tr><td>Google Play</td><td>Compras e inicio de sesión con Play Juegos</td>
+        <td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
   </table>
-  <p class="note">Cada uno tiene su propia política de privacidad, que rige el
-     tratamiento que hacen por su parte.</p>
+  <h3>Transferencias internacionales</h3>
+  <p>Estos proveedores almacenan y procesan los datos en servidores fuera de
+     Colombia, principalmente en Estados Unidos y en la Unión Europea. Al
+     autorizar este tratamiento autorizas esa transferencia. Los proveedores
+     están vinculados por sus propios compromisos contractuales de protección
+     de datos, que puedes consultar en los enlaces de la tabla.</p>
 </section>
 
 <section>
   <h2>Cuánto tiempo se conservan</h2>
-  <p>El progreso en la nube se conserva mientras tengas la cuenta. Los datos de
-     uso se conservan hasta 14 meses, que es el plazo por defecto de Firebase.
-     Si desinstalas el juego, lo guardado en tu dispositivo desaparece con él.</p>
+  <p>El progreso en la nube se conserva mientras tengas la cuenta, y desaparece
+     cuando la borras. Los datos de uso se conservan como máximo 14 meses en
+     Firebase, y en GameAnalytics según los plazos de su propia política. Si
+     desinstalas el juego, lo guardado en tu dispositivo desaparece con él.</p>
 </section>
 
 <section>
+  <h2>Medidas de seguridad</h2>
+  <p>Todo lo que sale del dispositivo viaja cifrado por HTTPS. El progreso en la
+     nube queda bajo reglas de acceso que permiten leer y escribir únicamente el
+     documento de la cuenta que inició sesión, de modo que una cuenta no puede
+     alcanzar la partida de otra. No guardamos contraseñas: la autenticación la
+     realiza el proveedor de identidad, no nosotros. El acceso administrativo al
+     proyecto está limitado al responsable y protegido con verificación en dos
+     pasos.</p>
+</section>
+
+<section id="derechos">
   <h2>Tus derechos</h2>
-  <p>Puedes borrar todo tu progreso desde <em>Ajustes ▸ Borrar mi progreso</em>
-     dentro del juego. Eso elimina la partida del dispositivo.</p>
-  <p>Para borrar también lo guardado en la nube, o para pedir una copia de lo
-     que tenemos sobre ti, escríbenos y lo haremos en un plazo de 30 días.</p>
+  <p>Como titular de los datos, el artículo 8 de la Ley 1581 de 2012 te
+     reconoce el derecho a:</p>
+  <ul>
+    <li>Conocer, actualizar y rectificar tus datos.</li>
+    <li>Solicitar prueba de la autorización que diste.</li>
+    <li>Ser informado sobre el uso que se les ha dado.</li>
+    <li>Presentar quejas ante la Superintendencia de Industria y Comercio por
+        infracciones a la ley.</li>
+    <li>Revocar la autorización y solicitar la supresión de los datos, cuando no
+        exista un deber legal o contractual que lo impida.</li>
+    <li>Acceder gratuitamente a tus datos.</li>
+  </ul>
+
+  <h3>Cómo ejercerlos</h3>
+  <p>Escríbenos a
+     <a href="mailto:ferwin.arias@gmail.com">ferwin.arias@gmail.com</a>
+     indicando qué pides. Para las consultas respondemos en un plazo máximo de
+     <strong>diez (10) días hábiles</strong>, prorrogable por cinco (5) días
+     hábiles más si no fuera posible atenderla en ese término, avisándote del
+     motivo. Para los reclamos el plazo es de <strong>quince (15) días
+     hábiles</strong>, prorrogable por ocho (8) días hábiles más en las mismas
+     condiciones.</p>
+  <p>Si consideras que no te atendimos bien, puedes acudir a la
+     <a href="https://www.sic.gov.co/">Superintendencia de Industria y
+     Comercio</a>. La ley exige haber agotado antes el trámite de consulta o
+     reclamo ante nosotros.</p>
+</section>
+
+<section id="eliminar">
+  <h2>Cómo borrar tus datos y tu cuenta</h2>
+  <p><strong>Desde el juego, sin escribirnos.</strong> Abre
+     <em>Ajustes ▸ Borrar mis datos</em> y confirma tocando una segunda vez. Eso
+     borra, en este orden:</p>
+  <ol>
+    <li>el documento con tu progreso guardado en la nube;</li>
+    <li>la cuenta de autenticación creada al iniciar sesión;</li>
+    <li>la partida guardada en el dispositivo.</li>
+  </ol>
+  <p>Si no has iniciado sesión no hay cuenta ni copia en la nube, y la opción
+     borra solo lo del dispositivo. La acción no se puede deshacer.</p>
+  <p><strong>Por correo.</strong> Si perdiste el acceso al dispositivo o
+     prefieres pedirlo, escribe a
+     <a href="mailto:ferwin.arias@gmail.com">ferwin.arias@gmail.com</a> desde la
+     dirección con la que iniciaste sesión, o indicando tu nombre visible de
+     Play Juegos, y lo borramos dentro de los plazos de la sección anterior.</p>
+  <p class="note">Los datos de uso y de publicidad ya enviados a los servicios
+     de la tabla no están asociados a tu nombre y se eliminan al cumplirse los
+     plazos de conservación indicados arriba. Los registros de compras los
+     conserva Google Play y se rigen por sus propias políticas y por las
+     obligaciones tributarias aplicables.</p>
 </section>
 
 <section>
-  <h2>Menores</h2>
-  <p>El juego no está dirigido a menores de 13 años y no recogemos datos de
-     ellos a sabiendas. Si crees que tu hijo nos ha facilitado datos,
-     escríbenos y los borraremos.</p>
+  <h2>Menores de edad</h2>
+  <p>El juego no está dirigido a menores de 13 años y no recogemos sus datos a
+     sabiendas. Conforme al artículo 7 de la Ley 1581 de 2012, el tratamiento de
+     datos de niños, niñas y adolescentes está prohibido salvo que se trate de
+     datos de naturaleza pública y respete su interés superior y sus derechos
+     fundamentales. Si eres madre, padre o representante legal y crees que un
+     menor a tu cargo nos facilitó datos, escríbenos y los suprimiremos.</p>
+</section>
+
+<section>
+  <h2>Cambios a esta política</h2>
+  <p>Si la cambiamos, publicaremos la versión nueva en esta misma dirección con
+     su fecha de entrada en vigencia. Cuando el cambio afecte la finalidad del
+     tratamiento o implique tratar datos nuevos, te lo comunicaremos dentro del
+     juego y, donde la ley lo exija, te pediremos otra vez tu autorización.</p>
+  <p class="note">Versión 2, vigente desde el 15 de octubre de 2026. Sustituye a
+     la versión 1 del 7 de octubre de 2026.</p>
 </section>
 
 <section>
@@ -177,7 +303,7 @@
 <div id="en" hidden>
 <header>
   <h1>Privacy Policy</h1>
-  <p class="sub">Block Quest · Last updated: 7 October 2026</p>
+  <p class="sub">Block Quest · Version 2 · In force from 15 October 2026</p>
 </header>
 
 <section>
@@ -188,6 +314,37 @@
   <p>We collect two things: how the game is played, so we know which levels are
      too hard, and what the ads need. If you choose to sign in, we store your
      progress so you have it on another device.</p>
+  <p>You can delete everything — on the device, in the cloud, and the account
+     itself — from inside the game, without writing to us. It is under
+     <em>Settings ▸ Erase my data</em>.</p>
+</section>
+
+<section id="controller">
+  <h2>Who is responsible for your data</h2>
+  <table>
+    <tr><th>Data controller</th><td>Edwin Fernando Arias Arrieta</td></tr>
+    <tr><th>Address</th><td>Calle 91 #22A-93 Int. 301, Medellín, Antioquia, Colombia</td></tr>
+    <tr><th>Email</th><td><a href="mailto:ferwin.arias@gmail.com">ferwin.arias@gmail.com</a></td></tr>
+    <tr><th>Phone</th><td>+57 324 263 9156</td></tr>
+  </table>
+  <p>This policy is issued under Colombia's Law 1581 of 2012, Decree 1074 of
+     2015 and the other Colombian data protection rules. The controller is a
+     natural person who develops and publishes the game individually.</p>
+</section>
+
+<section>
+  <h2>What we rely on to process it</h2>
+  <p>Your authorisation. You give it in one of two ways, depending on the data:</p>
+  <ul>
+    <li><strong>Ads and analytics.</strong> Where the law requires it, the game
+        shows a consent screen before collecting anything. Elsewhere, playing
+        the game is the authorisation, and you can withdraw it as described
+        below.</li>
+    <li><strong>Sign-in and cloud save.</strong> Only if you press
+        <em>Sign in</em>. It is optional and the game is complete without it.</li>
+  </ul>
+  <p>Purchases are also processed to meet our obligation to deliver what was
+     bought and to handle complaints about it.</p>
 </section>
 
 <section>
@@ -201,12 +358,13 @@
   <p>Signing in stores an identifier for your account and, where your Google
      Play Games profile provides one, your display name. They exist so we can
      recognise your save on another phone. We use them for nothing else and
-     share them with no one.</p>
+     disclose them to no one; they are held in Firebase, which processes them on
+     our behalf.</p>
 
   <h3>Usage data</h3>
   <p>Which level you start, whether you clear it, with how many stars, what you
      buy in the in-game shop and which ads you watch. None of it carries your
-     name. We use it to balance difficulty.</p>
+     name. We use it to balance difficulty and to measure how the ads perform.</p>
 
   <h3>Advertising</h3>
   <p>Google AdMob receives your device's advertising identifier, device
@@ -219,51 +377,132 @@
 </section>
 
 <section>
-  <h2>Your consent</h2>
+  <h2>Your consent, and how to withdraw it</h2>
   <p>If you are in the European Economic Area, the United Kingdom or
      Switzerland, the first time you open the game you will see a screen asking
      whether you accept personalised ads.</p>
-  <p>That choice also governs analytics: <strong>until you answer, the game
-     sends no usage data at all</strong>. If you decline, you will still see
-     ads, but not personalised ones.</p>
-  <p>You can change your mind at any time from your device settings, by
-     resetting or deleting your advertising identifier.</p>
+  <p>That choice also governs analytics. The game starts with analytics
+     <strong>off</strong> and sends no usage data while the question is on
+     screen; if you decline, it stays off and you will only see
+     non-personalised ads.</p>
+  <p>You can change your mind at any time, without losing your progress:</p>
+  <ul>
+    <li><strong>In the game:</strong> <em>Settings ▸ Privacy ▸ Change</em>
+        reopens that same screen. The row appears wherever there is a form to
+        reopen. The change takes effect at once, with no restart.</li>
+    <li><strong>From the system:</strong> by resetting or deleting your
+        advertising identifier in your phone's settings.</li>
+    <li><strong>By writing to us:</strong> at the address in the section above.</li>
+  </ul>
 </section>
 
 <section>
   <h2>Who we share with</h2>
   <p>We do not sell your data. These services process it on our behalf:</p>
   <table>
-    <tr><th>Service</th><th>Purpose</th></tr>
-    <tr><td>Google AdMob</td><td>Serving ads</td></tr>
-    <tr><td>Firebase (Google)</td><td>Analytics, sign-in and cloud save</td></tr>
-    <tr><td>GameAnalytics</td><td>Gameplay statistics</td></tr>
-    <tr><td>Google Play</td><td>Purchases and Play Games sign-in</td></tr>
+    <tr><th>Service</th><th>Purpose</th><th>Policy</th></tr>
+    <tr><td>Google AdMob</td><td>Serving ads and measuring their performance</td>
+        <td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
+    <tr><td>Firebase (Google)</td><td>Analytics, sign-in and cloud save</td>
+        <td><a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td></tr>
+    <tr><td>GameAnalytics</td><td>Gameplay statistics</td>
+        <td><a href="https://gameanalytics.com/privacy">gameanalytics.com/privacy</a></td></tr>
+    <tr><td>Google Play</td><td>Purchases and Play Games sign-in</td>
+        <td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
   </table>
-  <p class="note">Each has its own privacy policy, which governs their own
-     processing.</p>
+  <h3>International transfers</h3>
+  <p>These providers store and process the data on servers outside Colombia,
+     mainly in the United States and the European Union. Authorising this
+     processing authorises that transfer. The providers are bound by their own
+     contractual data protection commitments, linked in the table above.</p>
 </section>
 
 <section>
   <h2>How long we keep it</h2>
-  <p>Cloud progress is kept for as long as you have the account. Usage data is
-     kept for up to 14 months, which is Firebase's default. If you uninstall the
-     game, what is stored on your device goes with it.</p>
+  <p>Cloud progress is kept for as long as you have the account, and goes when
+     you delete it. Usage data is kept for at most 14 months in Firebase, and in
+     GameAnalytics for the periods set out in their own policy. If you uninstall
+     the game, what is stored on your device goes with it.</p>
 </section>
 
 <section>
+  <h2>Security</h2>
+  <p>Everything that leaves the device travels encrypted over HTTPS. Cloud
+     progress sits behind access rules that allow reading and writing only the
+     document belonging to the signed-in account, so one account cannot reach
+     another's save. We store no passwords: authentication is performed by the
+     identity provider, not by us. Administrative access to the project is
+     limited to the controller and protected with two-step verification.</p>
+</section>
+
+<section id="rights">
   <h2>Your rights</h2>
-  <p>You can erase all your progress from <em>Settings ▸ Erase my progress</em>
-     inside the game. That removes the save from the device.</p>
-  <p>To also delete what is stored in the cloud, or to request a copy of what we
-     hold about you, write to us and we will do it within 30 days.</p>
+  <p>As the data subject, article 8 of Law 1581 of 2012 gives you the right to:</p>
+  <ul>
+    <li>Know, update and correct your data.</li>
+    <li>Request proof of the authorisation you gave.</li>
+    <li>Be told how your data has been used.</li>
+    <li>Complain to the Superintendence of Industry and Commerce about breaches
+        of the law.</li>
+    <li>Revoke your authorisation and ask for your data to be deleted, where no
+        legal or contractual duty prevents it.</li>
+    <li>Access your data free of charge.</li>
+  </ul>
+
+  <h3>How to exercise them</h3>
+  <p>Write to
+     <a href="mailto:ferwin.arias@gmail.com">ferwin.arias@gmail.com</a> saying
+     what you are asking for. Enquiries are answered within
+     <strong>ten (10) business days</strong>, extendable by five (5) more
+     business days if we cannot answer within that time, telling you why.
+     Complaints are answered within <strong>fifteen (15) business days</strong>,
+     extendable by eight (8) more on the same terms.</p>
+  <p>If you believe we handled it badly, you may go to the
+     <a href="https://www.sic.gov.co/">Superintendence of Industry and
+     Commerce</a>. The law requires you to have come to us first.</p>
+</section>
+
+<section id="delete">
+  <h2>How to delete your data and your account</h2>
+  <p><strong>From the game, without writing to us.</strong> Open
+     <em>Settings ▸ Erase my data</em> and confirm with a second tap. That
+     deletes, in this order:</p>
+  <ol>
+    <li>the document holding your progress in the cloud;</li>
+    <li>the authentication account created when you signed in;</li>
+    <li>the save on the device.</li>
+  </ol>
+  <p>If you never signed in there is no account and no cloud copy, and the
+     option deletes only what is on the device. It cannot be undone.</p>
+  <p><strong>By email.</strong> If you have lost access to the device, or would
+     rather ask, write to
+     <a href="mailto:ferwin.arias@gmail.com">ferwin.arias@gmail.com</a> from the
+     address you signed in with, or quoting your Play Games display name, and we
+     will delete it within the periods set out above.</p>
+  <p class="note">Usage and advertising data already sent to the services in the
+     table is not tied to your name and is removed when the retention periods
+     above expire. Purchase records are held by Google Play and are governed by
+     its own policies and by applicable tax obligations.</p>
 </section>
 
 <section>
   <h2>Children</h2>
   <p>The game is not directed at children under 13 and we do not knowingly
-     collect their data. If you believe your child has given us data, write to
-     us and we will delete it.</p>
+     collect their data. Under article 7 of Law 1581 of 2012, processing the
+     data of children and adolescents is prohibited except where the data is
+     public in nature and the processing respects their best interests and
+     fundamental rights. If you are a parent or legal guardian and believe a
+     child in your care gave us data, write to us and we will delete it.</p>
+</section>
+
+<section>
+  <h2>Changes to this policy</h2>
+  <p>If we change it, we will publish the new version at this same address with
+     the date it takes effect. Where a change affects the purpose of the
+     processing or means processing new data, we will say so inside the game and,
+     where the law requires it, ask for your authorisation again.</p>
+  <p class="note">Version 2, in force from 15 October 2026. It replaces version 1
+     of 7 October 2026.</p>
 </section>
 
 <section>
@@ -288,6 +527,18 @@
     try { saved = localStorage.getItem('bq.privacy.lang'); } catch (e) {}
     var lang = saved || ((navigator.language || 'es').slice(0, 2) === 'es' ? 'es' : 'en');
     show(lang);
+
+    // A link to #delete or #eliminar must land on a visible section, whichever
+    // language the reader's browser picked: Play's reviewer follows the English
+    // anchor, the player follows the Spanish one, and the hidden half would
+    // otherwise scroll to nothing.
+    var hash = (location.hash || '').slice(1);
+    if (hash === 'delete' || hash === 'rights' || hash === 'controller') show('en');
+    if (hash === 'eliminar' || hash === 'derechos' || hash === 'responsable') show('es');
+    if (hash) {
+      var target = document.getElementById(hash);
+      if (target) target.scrollIntoView();
+    }
   })();
 </script>
 </body>
